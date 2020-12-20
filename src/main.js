@@ -26,6 +26,6 @@ objExp.get('/weather',(req,res)=>{
     res.render('weather');
 })
 
-objExp.listen(port,'127.0.0.1',()=>{
+objExp.listen(port,()=>{
     console.log('It is listening...');
 })
