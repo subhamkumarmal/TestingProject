@@ -2,7 +2,7 @@ const express=require('express');
 const objExp=express();
 const hbs=require('hbs');
 const path=require('path');
-const port=process.env.PORT || 2004;
+const port=process.env.port || 2004;
 
 
 objExp.set('view engine','.hbs');
