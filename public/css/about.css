@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Langar', cursive;
+    background: rgb(243, 200, 144);
+}
+
+.img-div img{
+    width: 300px;
+    height: 500px;
+}
+
+.main-div{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+pre{
+    text-transform: capitalize;
+}
+span{
+    font-weight: bold;
+}
